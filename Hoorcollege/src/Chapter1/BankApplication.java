@@ -24,10 +24,9 @@ public class BankApplication {
     }
 
     private static void experimentsWithVariables() {
-        int myValue = true;
+        int myValue = 0;
         int yourValue = 15;
         int hisValue = 20;
-        int myValue = (byte)hisValue;
         hisValue += yourValue;
         System.out.println("Expecting false: " + (myValue == hisValue));
         BankAccount myAccount = null;
@@ -35,7 +34,6 @@ public class BankApplication {
         BankAccount hisAccount = new BankAccount(7654321, 20L);
         System.out.println("Expecting true: " + (hisAccount == hisAccount));
         myValue = 10;
-        new Integer(20);
         Integer myWrappedValue = myValue + 5;
         hisValue = myWrappedValue;
     }
