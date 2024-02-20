@@ -1,4 +1,7 @@
 import be.kuleuven.cs.som.annotate.*;
+
+import java.sql.Array;
+import java.util.Arrays;
 import java.util.Date;
 
 /**
@@ -14,10 +17,7 @@ public class File {
     /**
      * For now, the max size of all files is equal to the biggest possible value of the class Integer.
      */
-    private static final int MAX_SIZE;
-    static {
-        MAX_SIZE = Integer.MAX_VALUE;
-    }
+    private static final int MAX_SIZE = Integer.MAX_VALUE;
 
     /**
      * The name must only contain letters, digits, periods (.), dashes (-) and underscores (_). The name cannot
@@ -33,21 +33,48 @@ public class File {
     /**
      * The creation time is initially set to be NULL and is instantiated when the file is created, in the constructor.
      */
-    private final Date creationTime; // DIT GEEFT ERROR WANT NOG GEEN CONSTRUCTOR
+    private final Date creationTime;
     /**
      * The modification time is initially set to be NULL and is instantiated when the file is modified for the first time.
      */
     private Date modificationTime;
 
     /**
-     * A method for setting the file size.
+     * Describes if the file is writeable.
+     */
+    private boolean writeable;
+
+    /**
+     * Constructs an object with a given name (that follows certain guidelines), size and writeability.
+     * @post An object of the class File is created with given parameters name, size and writeability.
+     * @param name The name of the file.
+     * @param size The size of the file.
+     * @param writeable The writeability of the file.
+     */
+    public File(String name, int size, boolean writeable) {
+        this.setName(name);
+        this.setSize(size);
+        this.creationTime = new Date();
+        this.writeable = writeable;
+    }
+
+    /**
+     * Constructs an object with a given name
+     * @post An object of the class File is created with given parameter name.
+     * @param name The name of the file.
+     */
+    public File(String name) {
+        this(name, 0, true);
+    }
+
+    /**
+     * A method for setting the file size equal to a given positive number.
      * @param size The size to be set.
      * @post If the size is less than or equal to the maximum file size, the file size is changed to equal the parameter size.
      */
+    @Basic
     private void setSize(int size) {
-        if (size <= MAX_SIZE) {
-            this.size = size;
-        }
+        this.size = Integer.min(Integer.max(0, size), MAX_SIZE);
     }
 
     /**
@@ -62,13 +89,16 @@ public class File {
     /**
      * A method for setting the name of the file.
      * @param name The name to be set.
-     * @post The name of the file is changed to equal the parameter name if the parameter name is valid.
-     * A valid name must only contain letters, digits, periods (.), dashes (-) and underscores (_) and must not be empty.
+     * @post The name of the file is changed to equal the parameter name, if the name follows the guidelines.
      */
     private void setName(String name) {
-        // The name must only contain letters, digits, periods (.), dashes (-) and underscores (_).
-        // The name cannot be empty and is case-sensitive.
-        if (name.matches("^[a-zA-Z0-9._-]+$")) {
+        boolean valid = !name.isEmpty();
+        for(char c : name.toCharArray()){
+            if(!Character.isLetterOrDigit(c) && c != '.' && c != '-' && c != '_') {
+                valid = false;
+            }
+        }
+        if (valid) {
             this.name = name;
         }
     }
@@ -92,15 +122,6 @@ public class File {
     }
 
     /**
-     * A method for setting the modification time of the file.
-     * The modification time shouldn't be changed when the file is created, or when the write authorization is changed.
-     * @param modificationTime The modification time to be set.
-     */
-    private void setModificationTime(Date modificationTime) {
-        this.modificationTime = modificationTime;
-    }
-
-    /**
      * A method for getting the name of the file.
      * @return The name of the file.
      */
@@ -110,25 +131,34 @@ public class File {
     }
 
     /**
-     * A method for increasing the file size with a certain amount of bits.
+     * A method for setting the modification time of the file.
+     * The modification time shouldn't be changed when the file is created, or when the write authorization is changed.
+     * @param modificationTime The modification time to be set.
+     */
+    private void setModificationTime(Date modificationTime) {
+        this.modificationTime = modificationTime;
+    }
+
+    /**
+     * A method for increasing the file size with a given positive amount of bits.
      * @param amountOfBits The amount of bits we want to increase the file size with.
-     * @post If the current size of the file, increased with the amountOfBits parameter doesn't exceed the MAX_SIZE
-     * constant, the filesize is increased with the parameter amountOfBits.
+     * @post If the current size of the file, increased with the positive amountOfBits parameter doesn't exceed the MAX_SIZE
+     * constant, and amountOfBits is strictly positive, the filesize is increased with the parameter amountOfBits.
      */
     public void enlarge(int amountOfBits) {
-        if (this.size <= MAX_SIZE - amountOfBits) {
+        if (this.size <= MAX_SIZE - amountOfBits && amountOfBits > 0) {
             setSize(this.getSize() + amountOfBits);
         }
     }
 
     /**
-     * A method for decreasing the file size with a certain amount of bits.
+     * A method for decreasing the file size with a given positive amount of bits.
      * @param amountOfBits The amount of bits we want to decrease the file size with.
-     * @post If the current size of the file, decreased with the amountOfBits parameter is greater than or equal to 0,
-     * the filesize is decreased with the parameter amountOfBits.
+     * @post If the current size of the file, decreased with the positive amountOfBits parameter is greater than or equal to 0,
+     * and amountOfBits is strictly positive, the filesize is decreased with the parameter amountOfBits.
      */
     public void shorten(int amountOfBits) {
-        if (this.size >= amountOfBits) {
+        if (this.size >= amountOfBits && amountOfBits > 0) {
             setSize(this.getSize() - amountOfBits);
         }
     }
