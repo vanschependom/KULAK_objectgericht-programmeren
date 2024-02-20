@@ -10,16 +10,5 @@
     <orderEntry type="library" name="AnnotationsDoclets" level="project" />
     <orderEntry type="library" name="junit.jupiter" level="project" />
     <orderEntry type="library" name="junit.platform.suite" level="project" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/Chapter1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/Chapter1.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
   </component>
 </module>
