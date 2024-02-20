@@ -62,10 +62,15 @@ public class File {
     /**
      * A method for setting the name of the file.
      * @param name The name to be set.
-     * @post The name of the file is changed to equal the parameter name.
+     * @post The name of the file is changed to equal the parameter name if the parameter name is valid.
+     * A valid name must only contain letters, digits, periods (.), dashes (-) and underscores (_) and must not be empty.
      */
     private void setName(String name) {
-        this.name = name;
+        // The name must only contain letters, digits, periods (.), dashes (-) and underscores (_).
+        // The name cannot be empty and is case-sensitive.
+        if (name.matches("^[a-zA-Z0-9._-]+$")) {
+            this.name = name;
+        }
     }
 
     /**
