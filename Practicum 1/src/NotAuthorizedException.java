@@ -4,8 +4,7 @@ import be.kuleuven.cs.som.annotate.Raw;
 
 /**
  * A class of exceptions signaling that a user is not authorized to perform a certain operation.
- *   Each not authorized exception involves the file for which the user is not authorized,
- *   and the required permission to perform the action.
+ *   Each not authorized exception involves the file for which the user is not authorized.
  *
  * @version 1.0
  * @author  Vincent Van Schependom
