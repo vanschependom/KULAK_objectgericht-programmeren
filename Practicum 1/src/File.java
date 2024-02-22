@@ -210,9 +210,7 @@ public class File {
      *        | new.getSize() == this.getSize() - amountOfBits
      */
     public void shorten(int amountOfBits) {
-        if (this.size >= amountOfBits && amountOfBits > 0) {
-            setSize(this.getSize() - amountOfBits);
-        }
+        setSize(this.getSize() - amountOfBits);
     }
 
     /**
