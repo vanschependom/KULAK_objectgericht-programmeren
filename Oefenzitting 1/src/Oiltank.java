@@ -65,7 +65,6 @@ public class Oiltank {
      * @post Als de capaciteit positief is, wordt de capaciteit ingesteld op de meegegeven waarde, anders
      * wordt de capaciteit ingesteld op 0.
      */
-    @Basic
     private void setCapacity(float capacity) {
         if (capacity >= 0) {
             this.capacity = capacity;

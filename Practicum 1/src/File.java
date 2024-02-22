@@ -107,7 +107,7 @@ public class File {
      * A method for getting the creation time of the file.
      * @return The creation time of the file.
      */
-    @Basic
+    @Basic @Immutable
     public Date getCreationTime() {
         return this.creationTime;
     }
