@@ -47,6 +47,15 @@ public class File {
     private boolean writeable;
 
     /**
+     * A method for checking if the file is writeable.
+     * @return True if the file is writeable.
+     * @return False if the file is not writeable.
+     */
+    public boolean isWriteable() {
+        return writeable;
+    }
+
+    /**
      * Constructs an object with a given (legal) name, size and writeability.
      *
      * @param   name
@@ -57,7 +66,14 @@ public class File {
      *          The writeability of the file.
      * @pre     The size must be a legal size, i.e. a positive number, smaller than or equal to the maximum size.
      *        | canHaveAsSize(size)
-     * @post    An object of the class File is created with given parameters name, size and writeability.
+     * @post    The name of the file is set to the parameter name.
+     *        | this.getName() == name
+     * @post    The size of the file is set to the parameter size.
+     *        | this.getSize() == size
+     * @post    The creation time of the file is set to the current time.
+     *        | this.getCreationTime() == new Date()
+     * @post    The writeability of the file is set to the parameter writeable.
+     *        | this.isWriteable() == writeable
      */
     public File(String name, int size, boolean writeable) {
         this.setName(name);
@@ -70,8 +86,9 @@ public class File {
      * Constructs an object with a given name.
      * @param   name
      *          The name of the file.
-     * @effect  An object of the class File is created with the given parameter name,
+     * @effect  A new object of the class File is created with the given parameter name,
      *          the size is set to 0 and the writeability is set to true.
+     *         | this(name, 0, true)
      */
     public File(String name) {
         this(name, 0, true);
@@ -99,13 +116,14 @@ public class File {
     }
 
     /**
-     * Check wheter this file can have a given number as its size.
+     * Check whether this file can have a given number as its size.
      * @param   size
      *          The size to check.
      * @return  True if and only if the size is greater than or equal to 0,
      *          and if the size is less than or equal to the maximum size.
      *        | result == (size >= 0) && (size <= MAX_SIZE)
      */
+    @Raw
     public boolean canHaveAsSize(int size) {
         return size >= 0 && size <= MAX_SIZE;
     }
@@ -137,11 +155,18 @@ public class File {
      * A method for changing the name of the file.
      * @param   newName
      *          The new name for the file.
+     * @pre     The writeability of the file must be true.
+     *        | isWriteable()
      * @post    The name of the file is changed to the parameter newName, only if it follows the guidelines.
      *          The name cannot be empty and must only contain letters, digits, periods (.), dashes (-) and underscores (_).
      * @post    The modification time of the file is set to the current time, if the name is changed.
+     * @throws  NotAuthorizedException
+     *          The file is not writeable.
      */
-    public void changeName(String newName) {
+    public void changeName(String newName) throws NotAuthorizedException {
+        if (!isWriteable()) {
+            throw new NotAuthorizedException(this);
+        }
         // the name is different from the current one
         if (!newName.equals(this.name)) {
             this.setName(newName);
@@ -189,12 +214,19 @@ public class File {
      *        | amountOfBits > 0
      * @pre     The current size of the file, increased with the positive amountOfBits, must not cause overflow.
      *        | getSize() <= Integer.MAX_VALUE - amountOfBits
+     * @pre     The writeability of the file must be true.
+     *       | isWriteable()
      * @pre     The current size of the file, increased with the positive amountOfBits, must be a legal size.
      *        | canHaveAsSize(getSize() + amountOfBits)
      * @post    The new size of the file is equal to the old size of the file, incremented with the parameter amountOfBits.
      *        | new.getSize() == this.getSize() + amountOfBits
+     * @throws  NotAuthorizedException
+     *          The file is not writeable.
      */
-    public void enlarge(int amountOfBits) {
+    public void enlarge(int amountOfBits) throws NotAuthorizedException {
+        if (!isWriteable()) {
+            throw new NotAuthorizedException(this);
+        }
         setSize(this.getSize() + amountOfBits);
     }
 
@@ -202,14 +234,21 @@ public class File {
      * A method for decreasing the file size with a given positive amount of bits.
      * @param   amountOfBits
      *          The amount of bits we want to decrease the file size with.
+     * @pre     The writeability of the file must be true.
+     *        | isWriteable()
      * @pre     The amountOfBits must be a positive number.
      *        | amountOfBits > 0
      * @pre     The current size of the file, decreased with the positive amountOfBits parameter must be a legal size.
      *        | canHaveAsSize(getSize() - amountOfBits)
      * @post    The new size of the file is equal to the old size of the file, decremented with the parameter amountOfBits.
      *        | new.getSize() == this.getSize() - amountOfBits
+     * @throws  NotAuthorizedException
+     *          The file is not writeable.
      */
-    public void shorten(int amountOfBits) {
+    public void shorten(int amountOfBits) throws NotAuthorizedException{
+        if (!isWriteable()) {
+            throw new NotAuthorizedException(this);
+        }
         setSize(this.getSize() - amountOfBits);
     }
 
