@@ -56,6 +56,17 @@ public class File {
     }
 
     /**
+     * A method for setting the writeability of the file.
+     * @param   writeable
+     *          The writeability to be set, either true or false.
+     * @post    The writeability of the file is set to the parameter writeable.
+     *        | new.isWriteable() == writeable
+     */
+    public void setWriteable(boolean writeable) {
+        this.writeable = writeable;
+    }
+
+    /**
      * Constructs an object with a given (legal) name, size and writeability.
      *
      * @param   name
@@ -110,6 +121,7 @@ public class File {
      * @pre     The size must be a legal size, i.e. a positive number.
      *        | canHaveAsSize(getSize()
      * @post    If the size is legal, the file size is changed to equal the parameter size.
+     *        | new.getSize() == size
      */
     private void setSize(int size) {
         this.size = size;
