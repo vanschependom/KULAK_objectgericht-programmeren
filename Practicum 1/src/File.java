@@ -87,9 +87,7 @@ public class File {
      *        | this.isWriteable() == writeable
      */
     public File(String name, int size, boolean writeable) throws IllegalArgumentException {
-        if (!canHaveAsSize(size)) {
-            throw new IllegalArgumentException("Invalid file size.");
-        }
+        assert canHaveAsSize(size) : "Illegal size";
         this.setName(name);
         this.setSize(size);
         this.creationTime = new Date();
@@ -127,6 +125,7 @@ public class File {
      *        | new.getSize() == size
      */
     private void setSize(int size) {
+        assert canHaveAsSize(size) : "Illegal size";
         this.size = size;
     }
 
