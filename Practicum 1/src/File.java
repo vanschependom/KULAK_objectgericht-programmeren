@@ -144,6 +144,52 @@ public class File {
     }
 
     /**
+     * A method for increasing the file size with a given positive amount of bits.
+     * @param   amountOfBits
+     *          The amount of bits we want to increase the file size with.
+     * @pre     The amountOfBits must be a positive number.
+     *        | amountOfBits > 0
+     * @pre     The current size of the file, increased with the positive amountOfBits, must not cause overflow.
+     *        | getSize() <= Integer.MAX_VALUE - amountOfBits
+     * @pre     The writeability of the file must be true.
+     *       | isWriteable()
+     * @pre     The current size of the file, increased with the positive amountOfBits, must be a legal size.
+     *        | canHaveAsSize(getSize() + amountOfBits)
+     * @effect  The new size of the file is set to the old size of the file, incremented with the parameter amountOfBits.
+     *        | new.getSize() == this.getSize() + amountOfBits
+     * @throws  NotAuthorizedException
+     *          The file is not writeable.
+     */
+    public void enlarge(int amountOfBits) throws NotAuthorizedException {
+        if (!isWriteable()) {
+            throw new NotAuthorizedException(this);
+        }
+        setSize(this.getSize() + amountOfBits);
+    }
+
+    /**
+     * A method for decreasing the file size with a given positive amount of bits.
+     * @param   amountOfBits
+     *          The amount of bits we want to decrease the file size with.
+     * @pre     The writeability of the file must be true.
+     *        | isWriteable()
+     * @pre     The amountOfBits must be a positive number.
+     *        | amountOfBits > 0
+     * @pre     The current size of the file, decreased with the positive amountOfBits parameter must be a legal size.
+     *        | canHaveAsSize(getSize() - amountOfBits)
+     * @effect  The new size of the file is set to the old size of the file, decremented with the parameter amountOfBits.
+     *        | new.getSize() == this.getSize() - amountOfBits
+     * @throws  NotAuthorizedException
+     *          The file is not writeable.
+     */
+    public void shorten(int amountOfBits) throws NotAuthorizedException{
+        if (!isWriteable()) {
+            throw new NotAuthorizedException(this);
+        }
+        setSize(this.getSize() - amountOfBits);
+    }
+
+    /**
      * A method for getting the name of the file.
      * @return The name of the file.
      */
@@ -219,52 +265,6 @@ public class File {
      */
     private void setModificationTime(Date modificationTime) {
         this.modificationTime = modificationTime;
-    }
-
-    /**
-     * A method for increasing the file size with a given positive amount of bits.
-     * @param   amountOfBits
-     *          The amount of bits we want to increase the file size with.
-     * @pre     The amountOfBits must be a positive number.
-     *        | amountOfBits > 0
-     * @pre     The current size of the file, increased with the positive amountOfBits, must not cause overflow.
-     *        | getSize() <= Integer.MAX_VALUE - amountOfBits
-     * @pre     The writeability of the file must be true.
-     *       | isWriteable()
-     * @pre     The current size of the file, increased with the positive amountOfBits, must be a legal size.
-     *        | canHaveAsSize(getSize() + amountOfBits)
-     * @post    The new size of the file is equal to the old size of the file, incremented with the parameter amountOfBits.
-     *        | new.getSize() == this.getSize() + amountOfBits
-     * @throws  NotAuthorizedException
-     *          The file is not writeable.
-     */
-    public void enlarge(int amountOfBits) throws NotAuthorizedException {
-        if (!isWriteable()) {
-            throw new NotAuthorizedException(this);
-        }
-        setSize(this.getSize() + amountOfBits);
-    }
-
-    /**
-     * A method for decreasing the file size with a given positive amount of bits.
-     * @param   amountOfBits
-     *          The amount of bits we want to decrease the file size with.
-     * @pre     The writeability of the file must be true.
-     *        | isWriteable()
-     * @pre     The amountOfBits must be a positive number.
-     *        | amountOfBits > 0
-     * @pre     The current size of the file, decreased with the positive amountOfBits parameter must be a legal size.
-     *        | canHaveAsSize(getSize() - amountOfBits)
-     * @post    The new size of the file is equal to the old size of the file, decremented with the parameter amountOfBits.
-     *        | new.getSize() == this.getSize() - amountOfBits
-     * @throws  NotAuthorizedException
-     *          The file is not writeable.
-     */
-    public void shorten(int amountOfBits) throws NotAuthorizedException{
-        if (!isWriteable()) {
-            throw new NotAuthorizedException(this);
-        }
-        setSize(this.getSize() - amountOfBits);
     }
 
     /**
