@@ -86,7 +86,10 @@ public class File {
      * @post    The writeability of the file is set to the parameter writeable.
      *        | this.isWriteable() == writeable
      */
-    public File(String name, int size, boolean writeable) {
+    public File(String name, int size, boolean writeable) throws IllegalArgumentException {
+        if (!canHaveAsSize(size)) {
+            throw new IllegalArgumentException("Invalid file size.");
+        }
         this.setName(name);
         this.setSize(size);
         this.creationTime = new Date();
