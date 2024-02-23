@@ -158,6 +158,7 @@ public class File {
      *        | new.getSize() == this.getSize() + amountOfBits
      * @throws  NotAuthorizedException
      *          The file is not writeable.
+     *        | !isWriteable()
      */
     public void enlarge(int amountOfBits) throws NotAuthorizedException {
         if (!isWriteable()) {
@@ -180,6 +181,7 @@ public class File {
      *        | new.getSize() == this.getSize() - amountOfBits
      * @throws  NotAuthorizedException
      *          The file is not writeable.
+     *        | !isWriteable()
      */
     public void shorten(int amountOfBits) throws NotAuthorizedException{
         if (!isWriteable()) {
@@ -222,6 +224,7 @@ public class File {
      * @post    The modification time of the file is set to the current time, if the name is changed.
      * @throws  NotAuthorizedException
      *          The file is not writeable.
+     *        | !isWriteable()
      */
     public void changeName(String newName) throws NotAuthorizedException {
         if (!isWriteable()) {
