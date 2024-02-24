@@ -38,11 +38,13 @@ public class FileTest {
 
     @Test
     public void extendedConstructor_IllegalCase(){
-        // The name of a file is implemented regarding total programming, we test an illegal name.
+        // The name of theFile is illegal. We expect the name to be null,
+        // because - according to total programming - the name is not set (inertia axioma)
+        // the standard value of an object is null.
         File theFile = new File("$ù$#hjf&&",10,true);
-        Assertions.assertEquals(null,theFile.getName());
+        Assertions.assertNull(theFile.getName());
         Assertions.assertEquals(10,theFile.getSize());
-        Assertions.assertEquals(true,theFile.isWriteable());
+        Assertions.assertTrue(theFile.isWriteable());
     }
 
     @Test
@@ -50,28 +52,28 @@ public class FileTest {
         File theFile = new File("Name123");
         Assertions.assertEquals("Name123",theFile.getName());
         Assertions.assertEquals(0,theFile.getSize());
-        Assertions.assertEquals(true,theFile.isWriteable());
+        Assertions.assertTrue(theFile.isWriteable());
     }
 
     @Test
     public void smallConstructor_IllegalCase(){
-        // The name of a file is implemented regarding total programming, we test an illegal name.
+        // The name of theFile is illegal. We expect the name to be null,
+        // because - according to total programming - the name is not set (inertia axioma).
+        // the standard value of an object is null.
         File theFile = new File("$ù$# hjf&&");
-        Assertions.assertEquals(null,theFile.getName());
+        Assertions.assertNull(theFile.getName());
     }
 
     @Test
-    public void changeLegalName() {
+    public void setName_LegalCase() {
         // Changing the name of a file, modification time is changed
-        Date date = new Date();
         file1.changeName("New-Name");
         Assertions.assertEquals("New-Name",file1.getName());
-        Assertions.assertNotEquals(null, file1.getModificationTime());
-
+        Assertions.assertNotNull(file1.getModificationTime());
     }
 
     @Test
-    public void changeIllegalName1(){
+    public void setName_IllegalCase1(){
         // Changing the name of a file into an illegal name, we expect the name to not change (total programming).
         // The modification is expected to still be null.
         file1.changeName("$#hjfbal$$"); // special characters not allowed
@@ -80,7 +82,7 @@ public class FileTest {
     }
 
     @Test
-    public void changeIllegalName2(){
+    public void setName_IllegalCase2(){
         // Changing the name of a file into an illegal name, we expect the name to not change (total programming).
         // The modification is expected to still be null.
         file1.changeName("hjf bal"); // space not allowed
@@ -120,7 +122,7 @@ public class FileTest {
         // The modification time should now be set and not be equal to null.
         file1.shorten(15);
         Assertions.assertEquals(5,file1.getSize());
-        Assertions.assertNotEquals(null, file1.getModificationTime());
+        Assertions.assertNotNull(file1.getModificationTime());
     }
 
     @Test
