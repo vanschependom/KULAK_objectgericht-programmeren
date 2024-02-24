@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * A class representing a single file that has a name, a size, a creation time, a modification time and a writeability.
  *
- * @version 1.0
+ * @version 2.0
  * @author  Vincent Van Schependom
  * @author  Flor De Meulemeester
  * @author  Arne Claerhout
@@ -51,6 +51,7 @@ public class File {
      * @return True if the file is writeable.
      * @return False if the file is not writeable.
      */
+    @Basic
     public boolean isWriteable() {
         return writeable;
     }
@@ -62,6 +63,7 @@ public class File {
      * @post    The writeability of the file is set to the parameter writeable.
      *        | new.isWriteable() == writeable
      */
+    @Basic
     public void setWriteable(boolean writeable) {
         this.writeable = writeable;
     }
@@ -86,8 +88,7 @@ public class File {
      * @post    The writeability of the file is set to the parameter writeable.
      *        | this.isWriteable() == writeable
      */
-    public File(String name, int size, boolean writeable) throws IllegalArgumentException {
-        assert canHaveAsSize(size) : "Illegal size";
+    public File(String name, int size, boolean writeable) {
         this.setName(name);
         this.setSize(size);
         this.creationTime = new Date();
@@ -119,27 +120,13 @@ public class File {
      * A method for setting the file size equal to a given positive number.
      * @param   size
      *          The size to be set.
-     * @pre     The size must be a legal size, i.e. a positive number.
-     *        | canHaveAsSize(getSize()
-     * @post    If the size is legal, the file size is changed to equal the parameter size.
+     * @pre     The size must be a legal size, i.e. a positive number that is smaller than the maximum size.
+     *        | canHaveAsSize(getSize())
+     * @post    The file size is changed to equal the parameter size.
      *        | new.getSize() == size
      */
     private void setSize(int size) {
-        assert canHaveAsSize(size) : "Illegal size";
         this.size = size;
-    }
-
-    /**
-     * Check whether this file can have a given number as its size.
-     * @param   size
-     *          The size to check.
-     * @return  True if and only if the size is greater than or equal to 0,
-     *          and if the size is less than or equal to the maximum size.
-     *        | result == (size >= 0) && (size <= MAX_SIZE)
-     */
-    @Raw
-    public boolean canHaveAsSize(int size) {
-        return size >= 0 && size <= MAX_SIZE;
     }
 
     /**
@@ -165,6 +152,7 @@ public class File {
             throw new NotAuthorizedException(this);
         }
         setSize(this.getSize() + amountOfBits);
+        this.setModificationTime(new Date());
     }
 
     /**
@@ -188,6 +176,7 @@ public class File {
             throw new NotAuthorizedException(this);
         }
         setSize(this.getSize() - amountOfBits);
+        this.setModificationTime(new Date());
     }
 
     /**
@@ -205,8 +194,8 @@ public class File {
      *          The name to be set.
      * @post    The name of the file is changed to equal the parameter name, if the name follows the guidelines.
      *          The name cannot be empty and must only contain letters, digits, periods (.), dashes (-) and underscores (_).
-     *          (because of the inertia axioma, the name is not changed if the name is not valid)
      */
+    // (because of the inertia axioma, the name is not changed if the name is not valid)
     private void setName(String name) {
         // check the validity of the string with a regex
         if (name.matches("[a-zA-Z0-9._-]+"))
@@ -217,21 +206,14 @@ public class File {
      * A method for changing the name of the file.
      * @param   newName
      *          The new name for the file.
-     * @pre     The writeability of the file must be true.
-     *        | isWriteable()
      * @post    The name of the file is changed to the parameter newName, only if it follows the guidelines.
-     *          The name cannot be empty and must only contain letters, digits, periods (.), dashes (-) and underscores (_).
+     *          The name cannot be empty and must only contain letters, digits, periods (.), dashes (-) and underscores (_)
+     *          and the file has to be writeable.
      * @post    The modification time of the file is set to the current time, if the name is changed.
-     * @throws  NotAuthorizedException
-     *          The file is not writeable.
-     *        | !isWriteable()
      */
-    public void changeName(String newName) throws NotAuthorizedException {
-        if (!isWriteable()) {
-            throw new NotAuthorizedException(this);
-        }
-        // the name is different from the current one
-        if (!newName.equals(this.name)) {
+    public void changeName(String newName) {
+        // the name is different from the current one and the file is writeable
+        if (!newName.equals(this.name) && this.isWriteable()) {
             this.setName(newName);
             // the name has been changed
             if (this.getName().equals(newName)) {
@@ -265,6 +247,7 @@ public class File {
      * @param modificationTime The modification time to be set.
      * @post The modification time of the file is set to the parameter modificationTime.
      */
+    @Basic
     private void setModificationTime(Date modificationTime) {
         this.modificationTime = modificationTime;
     }
@@ -277,15 +260,15 @@ public class File {
      */
     public boolean hasOverlappingUsagePeriod(File other) {
         // Unchanged files don't have overlapping usage periods.
-        if (this.modificationTime == null) {
+        if (this.modificationTime == null || other.getModificationTime() == null) {
             return false;
         } else {
             if (this.creationTime.before(other.creationTime)) {
                 // The file was created before the other file
-                return this.modificationTime.after(other.creationTime);
+                return this.modificationTime.after(other.getCreationTime());
             } else {
                 // The other file was created before this file
-                return other.creationTime.before(this.modificationTime);
+                return other.getCreationTime().before(this.modificationTime);
             }
         }
     }
