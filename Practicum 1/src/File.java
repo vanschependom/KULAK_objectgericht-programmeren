@@ -17,6 +17,45 @@ import java.util.Date;
 public class File {
 
     /**
+     * Constructs an object with a given (legal) name, size and writeability.
+     *
+     * @param   name
+     *          The name of the file.
+     * @param   size
+     *          The size of the file.
+     * @param   writeable
+     *          The writeability of the file.
+     * @pre     The size must be a legal size, i.e. a positive number, smaller than or equal to the maximum size.
+     *        | canHaveAsSize(size)
+     * @post    The name of the file is set to the parameter name.
+     *        | this.getName() == name
+     * @post    The size of the file is set to the parameter size.
+     *        | this.getSize() == size
+     * @post    The creation time of the file is set to the current time.
+     *        | this.getCreationTime() == new Date()
+     * @post    The writeability of the file is set to the parameter writeable.
+     *        | this.isWriteable() == writeable
+     */
+    public File(String name, int size, boolean writeable) {
+        this.setName(name);
+        this.setSize(size);
+        this.creationTime = new Date();
+        this.writeable = writeable;
+    }
+
+    /**
+     * Constructs an object with a given name.
+     * @param   name
+     *          The name of the file.
+     * @effect  A new object of the class File is created with the given parameter name,
+     *          the size is set to 0 and the writeability is set to true.
+     *         | this(name, 0, true)
+     */
+    public File(String name) {
+        this(name, 0, true);
+    }
+
+    /**
      * The size of the file, represented in bytes. A file can be empty, meaning the size equals 0.
      */
     private int size;
@@ -69,45 +108,6 @@ public class File {
     }
 
     /**
-     * Constructs an object with a given (legal) name, size and writeability.
-     *
-     * @param   name
-     *          The name of the file.
-     * @param   size
-     *          The size of the file.
-     * @param   writeable
-     *          The writeability of the file.
-     * @pre     The size must be a legal size, i.e. a positive number, smaller than or equal to the maximum size.
-     *        | canHaveAsSize(size)
-     * @post    The name of the file is set to the parameter name.
-     *        | this.getName() == name
-     * @post    The size of the file is set to the parameter size.
-     *        | this.getSize() == size
-     * @post    The creation time of the file is set to the current time.
-     *        | this.getCreationTime() == new Date()
-     * @post    The writeability of the file is set to the parameter writeable.
-     *        | this.isWriteable() == writeable
-     */
-    public File(String name, int size, boolean writeable) {
-        this.setName(name);
-        this.setSize(size);
-        this.creationTime = new Date();
-        this.writeable = writeable;
-    }
-
-    /**
-     * Constructs an object with a given name.
-     * @param   name
-     *          The name of the file.
-     * @effect  A new object of the class File is created with the given parameter name,
-     *          the size is set to 0 and the writeability is set to true.
-     *         | this(name, 0, true)
-     */
-    public File(String name) {
-        this(name, 0, true);
-    }
-
-    /**
      * A method for getting the file size.
      * @return The size of the file.
      */
@@ -138,7 +138,7 @@ public class File {
      * @pre     The current size of the file, increased with the positive amountOfBits, must not cause overflow.
      *        | getSize() <= Integer.MAX_VALUE - amountOfBits
      * @pre     The writeability of the file must be true.
-     *       | isWriteable()
+     *        | isWriteable()
      * @pre     The current size of the file, increased with the positive amountOfBits, must be a legal size.
      *        | canHaveAsSize(getSize() + amountOfBits)
      * @effect  The new size of the file is set to the old size of the file, incremented with the parameter amountOfBits.

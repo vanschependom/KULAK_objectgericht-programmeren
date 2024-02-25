@@ -117,6 +117,24 @@ public class FileTest {
     }
 
     @Test
+    public void setWritable_true(){
+        // We only test legal cases because the writeable was implemented via nominal programming.
+        // The modification time should now be set and not be equal to null.
+        file1.setWriteable(false);
+        Assertions.assertFalse(file1.isWriteable());
+        Assertions.assertNotNull(file1.getModificationTime());
+    }
+
+    @Test
+    public void setWritable_false(){
+        // We only test legal cases because the writeable was implemented via nominal programming.
+        // The modification time should now be set and not be equal to null.
+        file3.setWriteable(false);
+        Assertions.assertFalse(file3.isWriteable());
+        Assertions.assertNotNull(file3.getModificationTime());
+    }
+
+    @Test
     public void shortenSize(){
         // We only test legal cases because the size was implemented via nominal programming.
         // The modification time should now be set and not be equal to null.
