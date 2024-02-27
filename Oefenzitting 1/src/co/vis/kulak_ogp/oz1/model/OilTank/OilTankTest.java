@@ -1,4 +1,4 @@
-package Modeloplossing.OilTank;
+package co.vis.kulak_ogp.oz1.model.OilTank;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7f5489d-b9f7-49ff-bd73-9374b7e7fadc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/MainTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/ClockUsage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockExtra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockExtraTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/ClockUsage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockExtra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockExtraTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/OilTankTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/class-use/OilTankTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/MainTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/AnnotationsDoclets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_platform_suite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/template-meta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oefenzitting 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/vis/kulak_ogp/oz2/eigen/Oiltank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Oiltank.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Oiltank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Oiltank.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Oiltank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/tag-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/tag-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/type-search-index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="false" />
+        <option name="checksumPolicy" value="NOT_SET" />
+        <option name="emulateTerminal" value="false" />
+        <option name="failureBehavior" value="NOT_SET" />
+        <option name="localRepository" value="" />
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+        <option name="mavenHomeType">
+          <MavenHomeType />
+        </option>
+        <option name="nonRecursive" value="false" />
+        <option name="outputLevel" value="INFO" />
+        <option name="printErrorStackTraces" value="false" />
+        <option name="showDialogWithAdvancedSettings" value="false" />
+        <option name="threads" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="" />
+        <option name="workOffline" value="false" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="autoDetectCompiler" value="true" />
+        <option name="createModulesForAggregators" value="true" />
+        <option name="dedicatedModuleDir" value="" />
+        <option name="dependencyTypes" value="jar, test-jar, maven-plugin, ejb, ejb-client, jboss-har, jboss-sar, war, ear, bundle" />
+        <option name="downloadAnnotationsAutomatically" value="false" />
+        <option name="downloadDocsAutomatically" value="false" />
+        <option name="downloadSourcesAutomatically" value="false" />
+        <option name="excludeTargetFolder" value="true" />
+        <option name="generatedSourcesFolder" value="AUTODETECT" />
+        <option name="importAutomatically" value="false" />
+        <option name="jdkForImporter" value="#USE_PROJECT_JDK" />
+        <option name="keepSourceFolders" value="true" />
+        <option name="lookForNested" value="false" />
+        <option name="updateFoldersOnImportPhase" value="process-resources" />
+        <option name="useMavenOutput" value="true" />
+        <option name="vmOptionsForImporter" value="" />
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list />
+    </option>
+    <option name="disabledProfiles">
+      <list />
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2cxHHqKfcD6MOg8kHv25upzDTlp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7f5489d-b9f7-49ff-bd73-9374b7e7fadc" name="Changes" comment="" />
+      <created>1709046227532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709046227532</updated>
+      <workItem from="1709046228794" duration="213000" />
+      <workItem from="1709047615942" duration="814000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

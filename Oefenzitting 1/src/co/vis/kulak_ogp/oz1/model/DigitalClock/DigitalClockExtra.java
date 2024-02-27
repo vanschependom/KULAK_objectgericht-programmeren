@@ -1,4 +1,4 @@
-package Modeloplossing.DigitalClock;
+package co.vis.kulak_ogp.oz1.model.DigitalClock;
 
 /**
  * A class for dealing with digital clocks, displaying time in terms of

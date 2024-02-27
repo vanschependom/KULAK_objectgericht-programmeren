@@ -1,4 +1,4 @@
-package Modeloplossing.DigitalClock;
+package co.vis.kulak_ogp.oz1.model.DigitalClock;
 
 /**
  * A class illustrating how to manipulate digital clocks by

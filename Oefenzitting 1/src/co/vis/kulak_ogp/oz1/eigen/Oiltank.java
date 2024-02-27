@@ -1,3 +1,5 @@
+package co.vis.kulak_ogp.oz1.eigen;
+
 import be.kuleuven.cs.som.annotate.*;
 
 /**
@@ -11,7 +13,7 @@ public class Oiltank {
     private float oil;
 
     /**
-     * Een constructor voor de klasse Oiltank met 1 argument.
+     * Een constructor voor de klasse co.vis.kulak_ogp.oz1.eigen.Oiltank met 1 argument.
      * @param capacity
      * @effect Na het uitvoeren van de constructor wordt een olietank aangemaakt inhoud van 0 en wordt de capaciteit
      * ingesteld op de meegegeven waarde via setCapacity.
@@ -21,8 +23,8 @@ public class Oiltank {
     }
 
     /**
-     * Een constructor voor de klasse Oiltank met 2 argumenten.
-     * @param capacity De capaciteit van de nieuwe Oiltank.
+     * Een constructor voor de klasse co.vis.kulak_ogp.oz1.eigen.Oiltank met 2 argumenten.
+     * @param capacity De capaciteit van de nieuwe co.vis.kulak_ogp.oz1.eigen.Oiltank.
      * @param oil De inhoud van de nieuwe olietank.
      * @effect Er wordt een nieuwe olietank aangemaakt en de inhoud en de capaciteit worden ingesteld met respectievelijk
      * de methodes setOil en setCapacity.
@@ -33,7 +35,7 @@ public class Oiltank {
     }
 
     /**
-     * Een constructor voor de klasse Oiltank zonder argumenten.
+     * Een constructor voor de klasse co.vis.kulak_ogp.oz1.eigen.Oiltank zonder argumenten.
      * @effect Na het aanroepen van deze constructor wordt een olietank aangemaakt met capaciteit 5000 en inhoud 0
      * aan de hand van de constructor die zowel capaciteit als inhoud meekrijgt.
      */

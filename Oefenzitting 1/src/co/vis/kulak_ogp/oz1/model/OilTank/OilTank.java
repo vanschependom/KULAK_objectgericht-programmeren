@@ -1,4 +1,4 @@
-package Modeloplossing.OilTank;
+package co.vis.kulak_ogp.oz1.model.OilTank;
 
 /**
 * A class of tanks for storing oil, involving a capacity and a contents.
