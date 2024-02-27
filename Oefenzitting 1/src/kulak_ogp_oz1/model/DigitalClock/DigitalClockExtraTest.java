@@ -1,4 +1,4 @@
-package co.vis.kulak_ogp.oz1.model.DigitalClock;
+package kulak_ogp_oz1.model.DigitalClock;
 
 import static org.junit.jupiter.api.Assertions.*;
 

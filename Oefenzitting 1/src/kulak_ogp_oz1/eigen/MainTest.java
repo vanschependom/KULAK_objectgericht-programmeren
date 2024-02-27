@@ -1,4 +1,4 @@
-package co.vis.kulak_ogp.oz1.eigen;
+package kulak_ogp_oz1.eigen;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
