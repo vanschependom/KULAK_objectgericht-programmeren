@@ -10,6 +10,39 @@
       <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/eigen/IllegalAmountException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/eigen/InequivalentClocksException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/eigen/OiltankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/MainTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/MainTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/ClockUsage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/ClockUsage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClock.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockExtra.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockExtra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockExtraTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockExtraTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/ClockUsage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/ClockUsage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClock.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockExtra.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockExtra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockExtraTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockExtraTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/OilTankTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/OilTankTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/class-use/OilTankTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/class-use/OilTankTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Oiltank.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Oiltank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/MainTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/MainTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Oiltank.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Oiltank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-use.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/vis/kulak_ogp/oz2/eigen/Oiltank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/eigen/OilTank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/File.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/File.html" afterDir="false" />
@@ -175,7 +208,7 @@
       <workItem from="1709046228794" duration="213000" />
       <workItem from="1709047615942" duration="6953000" />
       <workItem from="1709056287328" duration="1022000" />
-      <workItem from="1709057320855" duration="1453000" />
+      <workItem from="1709057320855" duration="1508000" />
     </task>
     <servers />
   </component>
