@@ -102,6 +102,19 @@ public class File {
     }
 
     /**
+     * A method for checking if a size is legal.
+     * 
+     * @param   size
+     *          The size to check
+     * @return  True if the size is legal
+     * @return  False if the size is not legal
+     */
+    @Model
+    private boolean canHaveAsSize(int size) {
+        return size >= 0 && size < MAX_SIZE;
+    }
+
+    /**
      * A method for setting the writeability of the file.
      *
      * @param   writeable
