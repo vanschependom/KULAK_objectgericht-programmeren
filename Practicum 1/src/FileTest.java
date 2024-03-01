@@ -17,6 +17,7 @@ public class FileTest {
 
     /**
      * Set up a mutable test fixture.
+     *
      * @post The variable file1 represents a file with name "Name1", size 20 that is writeable.
      * @post The variable file2 represents a file with name "Name2", size 100 that isn't writeable.
      * @post The variable file3 represents a file with name "Name3", size 30 that is writeable.
@@ -92,16 +93,15 @@ public class FileTest {
 
     @Test
     public void changeNameWithoutPermission(){
-        // Changing the name of a file while the writeability is false, we expect that nothing changes (total programming).
-        // The modification is expected to still be null.
-        file2.changeName("name");
-        Assertions.assertEquals("Name2", file2.getName());
-        Assertions.assertNull(file2.getModificationTime());
+        // Changing the name of a file while the writeability is false, we expect a NotAuthorizedException.
+        Assertions.assertThrows(NotAuthorizedException.class, () -> {
+            file2.changeName("name");
+        });
     }
 
     @Test
     public void changeNameWithSameName() {
-        //We expect the name to not change and the modification time to be null because it has not been set (total programming).
+        // We expect the name to not change and the modification time to be null because it has not been set (total programming).
         file3.changeName("Name3");
         Assertions.assertEquals("Name3", file3.getName());
         Assertions.assertNull(file3.getModificationTime());
@@ -113,7 +113,7 @@ public class FileTest {
         // The modification time should now be set and not be equal to null.
         file1.enlarge(23);
         Assertions.assertEquals(43,file1.getSize());
-        Assertions.assertNotEquals(null, file1.getModificationTime());
+        Assertions.assertNotNull(file1.getModificationTime());
     }
 
     @Test
@@ -122,7 +122,7 @@ public class FileTest {
         // The modification time should now be set and not be equal to null.
         file1.setWriteable(false);
         Assertions.assertFalse(file1.isWriteable());
-        Assertions.assertNotNull(file1.getModificationTime());
+        Assertions.assertNull(file1.getModificationTime());
     }
 
     @Test
@@ -131,7 +131,7 @@ public class FileTest {
         // The modification time should now be set and not be equal to null.
         file3.setWriteable(false);
         Assertions.assertFalse(file3.isWriteable());
-        Assertions.assertNotNull(file3.getModificationTime());
+        Assertions.assertNull(file3.getModificationTime());
     }
 
     @Test
@@ -146,11 +146,12 @@ public class FileTest {
     @Test
     public void hasOverlappingUsagePeriod1() throws InterruptedException {
         // Both files are changed so they both have a use period and the periods should overlap.
-        TimeUnit.MILLISECONDS.sleep(2); // Wait, otherwise the overlap period isn't significant enough.
+        TimeUnit.MILLISECONDS.sleep(2); // Wait, otherwise the usage period isn't significant enough.
         file1.enlarge(30);
-        TimeUnit.MILLISECONDS.sleep(10); // Wait, otherwise the overlap period isn't significant enough.
+        TimeUnit.MILLISECONDS.sleep(10); // Wait, otherwise the usage period isn't significant enough.
         file3.enlarge(30);
         Assertions.assertTrue(file1.hasOverlappingUsagePeriod(file3));
+        Assertions.assertTrue(file3.hasOverlappingUsagePeriod(file1));
     }
 
     @Test
