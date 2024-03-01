@@ -4,75 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7f5489d-b9f7-49ff-bd73-9374b7e7fadc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/eigen/DigitalClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/eigen/DigitalClockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/eigen/IllegalAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/eigen/InequivalentClocksException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/eigen/OiltankTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/MainTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/MainTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/ClockUsage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/ClockUsage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClock.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClock.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockExtra.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockExtra.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockExtraTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockExtraTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/DigitalClockTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/ClockUsage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/ClockUsage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClock.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClock.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockExtra.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockExtra.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockExtraTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockExtraTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/DigitalClock/class-use/DigitalClockTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/OilTankTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/OilTankTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/class-use/OilTankTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Modeloplossing/OilTank/class-use/OilTankTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Oiltank.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/Oiltank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/MainTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/MainTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Oiltank.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/class-use/Oiltank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oefenzitting 1/Javadoc/package-use.html" afterDir="false" />
+    <list default="true" id="c7f5489d-b9f7-49ff-bd73-9374b7e7fadc" name="Changes" comment="Afgewerkt tijdens oefenzitting">
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/AllTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/BankCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/BankCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalAccountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalAccountExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalAmountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalAmountExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalHolderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalHolderExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalNumberExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalPinCodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/money/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/money/CurrencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/money/MoneyAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/money/MoneyAmountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/state/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/state/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/ClockUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/DigitalClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/DigitalClockExtra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/DigitalClockExtraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/DigitalClockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/OilTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/OilTankTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/vis/kulak_ogp/oz2/eigen/Oiltank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/eigen/OilTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/File.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/File.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/FileTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/FileTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/NotAuthorizedException.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/NotAuthorizedException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/class-use/File.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/class-use/File.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/class-use/FileTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/class-use/FileTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/class-use/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/class-use/NotAuthorizedException.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/class-use/NotAuthorizedException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/member-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practicum 1/javadoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practicum 1/javadoc/serialized-form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,26 +110,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.DigitalClockTest.executor": "Run",
-    "JUnit.DigitalClockTest.testMutatorSetMinutes.executor": "Run",
-    "JUnit.OiltankTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.DigitalClockTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DigitalClockTest.testMutatorSetMinutes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OiltankTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="DigitalClockTest.testMutatorSetMinutes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Oefenzitting 2" />
@@ -208,11 +171,25 @@
       <workItem from="1709046228794" duration="213000" />
       <workItem from="1709047615942" duration="6953000" />
       <workItem from="1709056287328" duration="1022000" />
-      <workItem from="1709057320855" duration="1508000" />
+      <workItem from="1709057320855" duration="1815000" />
+      <workItem from="1709287095087" duration="101000" />
     </task>
+    <task id="LOCAL-00001" summary="Afgewerkt tijdens oefenzitting">
+      <option name="closed" value="true" />
+      <created>1709058863848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709058863848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Afgewerkt tijdens oefenzitting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Afgewerkt tijdens oefenzitting" />
   </component>
 </project>
