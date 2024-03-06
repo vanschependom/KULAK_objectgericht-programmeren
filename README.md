@@ -8,8 +8,9 @@ De folder ```hoorcollege``` bevat de contents van het boek _Object Oriented Prog
 
 ## Oefenzitting
 De folder ```oefenzitting``` bevat mijn eigen oplossingen en de modeloplossingen van de oefenzittingen voor dit vak.
-
-### Totaal programmeren
-### Nominaal programmeren
-### Defensief programmeren
-### Associaties
+- Totaal programmeren
+- Nominaal programmeren
+- Defensief programmeren
+- Associaties
+- Inheritance
+- Selected topics
