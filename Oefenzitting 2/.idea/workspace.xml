@@ -4,43 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7f5489d-b9f7-49ff-bd73-9374b7e7fadc" name="Changes" comment="Afgewerkt tijdens oefenzitting">
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/AllTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/BankAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/BankCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/BankCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalAccountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalAccountExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalAmountExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalHolderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalHolderExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalNumberExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/exceptions/IllegalPinCodeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/money/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/money/CurrencyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/money/MoneyAmount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/banking/money/MoneyAmountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/state/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hoorcollege/src/Chapter5/state/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/ClockUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/DigitalClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/DigitalClockExtra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/DigitalClockExtraTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/DigitalClockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/OilTank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kulak_ogp_oz2/model/OilTankTest.java" afterDir="false" />
+    <list default="true" id="c7f5489d-b9f7-49ff-bd73-9374b7e7fadc" name="Changes" comment="Modeloplossing OZ2">
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 3/Oefenzitting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 3/src/eigen/IllegalPartnerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oefenzitting 3/src/eigen/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,26 +88,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.DigitalClockTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DigitalClockTest.testMutatorSetMinutes.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.OiltankTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.DigitalClockTest.executor": "Run",
+    "JUnit.DigitalClockTest.testMutatorSetMinutes.executor": "Run",
+    "JUnit.OilTankTests.executor": "Run",
+    "JUnit.OiltankTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/vincent/Documents/Code/KULAK_objectgericht-programmeren/Oefenzitting 2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="DigitalClockTest.testMutatorSetMinutes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Oefenzitting 2" />
@@ -172,7 +153,14 @@
       <workItem from="1709047615942" duration="6953000" />
       <workItem from="1709056287328" duration="1022000" />
       <workItem from="1709057320855" duration="1815000" />
-      <workItem from="1709287095087" duration="101000" />
+      <workItem from="1709287095087" duration="643000" />
+      <workItem from="1709310949064" duration="565000" />
+      <workItem from="1709450239150" duration="599000" />
+      <workItem from="1709492513768" duration="599000" />
+      <workItem from="1709647768357" duration="4336000" />
+      <workItem from="1709657212136" duration="16000" />
+      <workItem from="1709657360789" duration="627000" />
+      <workItem from="1709664806572" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="Afgewerkt tijdens oefenzitting">
       <option name="closed" value="true" />
@@ -182,14 +170,70 @@
       <option name="project" value="LOCAL" />
       <updated>1709058863848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modeloplossingen toegevoegd">
+      <option name="closed" value="true" />
+      <created>1709287249820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709287249820</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Niet-werkend H5">
+      <option name="closed" value="true" />
+      <created>1709287261108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709287261108</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Het waren de oplossingen van vorige sessie...">
+      <option name="closed" value="true" />
+      <created>1709311338724</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709311338724</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Practicum 1 ingediend">
+      <option name="closed" value="true" />
+      <created>1709647845611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709647845611</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modeloplossing OZ2">
+      <option name="closed" value="true" />
+      <created>1709647860157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709647860157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Afgewerkt tijdens oefenzitting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Afgewerkt tijdens oefenzitting" />
+    <MESSAGE value="Modeloplossingen toegevoegd" />
+    <MESSAGE value="Niet-werkend H5" />
+    <MESSAGE value="Het waren de oplossingen van vorige sessie..." />
+    <MESSAGE value="Practicum 1 ingediend" />
+    <MESSAGE value="Modeloplossing OZ2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modeloplossing OZ2" />
   </component>
 </project>
