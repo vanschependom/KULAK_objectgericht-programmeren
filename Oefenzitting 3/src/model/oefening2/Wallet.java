@@ -99,7 +99,7 @@ public class Wallet {
      * @return  The number of all the purchases that are registered in
      *          this wallet.
      *          | result ==
-     *          |   card ( { purchase in model.oefening2.Purchase: hasAsPurchase(purchase) } )
+     *          |   card ( { purchase in Purchase: hasAsPurchase(purchase) } )
      */
     @Raw
     public int getNbPurchases() {
