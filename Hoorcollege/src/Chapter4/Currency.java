@@ -11,7 +11,7 @@ import be.kuleuven.cs.som.annotate.Raw;
 import be.kuleuven.cs.som.annotate.Value;
 
 /**
- * An enumeration introducing different currencies used to
+ * An SelectedTopics.enumeration introducing different currencies used to
  * express amounts of money.
  *   In its current form, the class only supports the Euro,
  *   the United States Dollar and the Japanese Yen.
