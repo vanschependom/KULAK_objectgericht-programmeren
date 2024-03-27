@@ -1,12 +1,12 @@
 package model.oefening2;
 
-import card.JackCardTest;
-import card.JokerCardTest;
-import card.NumberedCardTest;
-import deck.CardDeckTest;
-import deck.HelpDeckTest;
-import deck.SourceDeckTest;
-import deck.TargetDeckTest;
+import model.oefening2.card.JackCardTest;
+import model.oefening2.card.JokerCardTest;
+import model.oefening2.card.NumberedCardTest;
+import model.oefening2.deck.CardDeckTest;
+import model.oefening2.deck.HelpDeckTest;
+import model.oefening2.deck.SourceDeckTest;
+import model.oefening2.deck.TargetDeckTest;
 import org.junit.platform.suite.api.*;
 
 @Suite

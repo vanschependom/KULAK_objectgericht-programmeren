@@ -1,7 +1,7 @@
-package deck;
+package model.oefening2.deck;
 
 
-import card.JokerCard;
+import model.oefening2.card.JokerCard;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

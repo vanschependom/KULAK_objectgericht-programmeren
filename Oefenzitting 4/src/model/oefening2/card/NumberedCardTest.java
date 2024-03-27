@@ -1,4 +1,4 @@
-package card;
+package model.oefening2.card;
 
 import org.junit.jupiter.api.*;
 
