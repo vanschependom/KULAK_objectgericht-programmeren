@@ -101,10 +101,14 @@ public abstract class DiskItem {
 		setName(name);
 		// Please note that the name must be set before calling the setParentDirectory()!
 		// Otherwise, we may end up in the wrong place within the (sorted collection within the) parent directory.
+		// ! setParentDirectory kan een exception gooien,
+		// ! --> die moet opgevangen worden (ook al komt hij normaal niet voor)
+		// ! canHaveAsParentDirectory(parent) is true, dus de illegalArgumentException kan niet voorkomen
 		try{
 			setParentDirectory(parent);
 		}catch(IllegalStateException e) {
 			//should not occur
+			// ! daarom hier een assert false
 			assert false;
 		}
 	}
@@ -139,6 +143,10 @@ public abstract class DiskItem {
 	 * 			We will leave the parent directory as null, which may violate the class
 	 * 			invariants of those subclasses. But we may not throw an exception in that case!
 	 * 			The subclass will be responsible for making sure the parent is set well.
+	 *
+	 * 	! zie algemene commentaar
+	 * 	!--> dit wordt vooral gebruikt door de Link subklasse, aangezien die een exception
+	 * 	!	kan gooien in zijn constructor wanneer de linked item niet in orde is.
 	 */
 	@Raw
 	protected DiskItem(String name) {

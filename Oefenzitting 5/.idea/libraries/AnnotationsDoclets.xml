@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="AnnotationsDoclets">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/Code/KULAK_objectgericht-programmeren/AnnotationsDoclets.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="https://www.cs.kuleuven.be/books/OOPWithJava/doc/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
