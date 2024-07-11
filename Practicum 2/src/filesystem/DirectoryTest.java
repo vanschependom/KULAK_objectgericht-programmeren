@@ -1,6 +1,8 @@
 package filesystem;
 
 import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertSame;
+
 import java.util.Date;
 import org.junit.*;
 import filesystem.exception.*;

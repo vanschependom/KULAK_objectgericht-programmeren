@@ -179,7 +179,7 @@ public abstract class DiskItem {
 	 * 			| if (isTerminated() || (!isRoot() && !getParentDirectory().isWritable())
 	 * 			| then result == false
 	 * 
-	 * @note	This specification must be left open s.t. the subclasses can change it.
+	 * !@note	This specification must be left open s.t. the subclasses can change it.
 	 * 			It does e.g. not say in which cases the answer is true.
 	 * 			A fully closed description here would lead to contradictions in the subclasses.
 	 */
